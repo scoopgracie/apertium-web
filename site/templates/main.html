@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Apertium | {{{fossmt}}}</title>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet">
+		<link rel=stylesheet href=/assets/css/layout.css>
+		<link rel=stylesheet href=/assets/css/fonts.css>
+	</head>
+	<body>
+		<header>
+			<img src=/assets/images/apertium.png id=logo>
+			<hgroup>
+				<h1>Apertium</h1>
+				<h2>{{{fossmt}}}</h2>
+			</hgroup>
+		</header>
+		<main>
+			<section id=translators>
+				<section id=source>
+					<header class=langpicker>
+						<select id=sourcelang>
+							<option value=spa>{{{spa}}}</option>
+							<option value=fra>{{{fra}}}</option>
+							<option value=eng>{{{eng}}}</option>
+						</select>
+						<button id=swaplangs><img src=/assets/images/swap.png></button>
+					</header>
+					<textarea id=sourcebox></textarea>
+				</section>
+				<section id=dest>
+					<header class=langpicker>
+						<select id=destlang>
+							<option value=spa>{{{spa}}}</option>
+							<option value=fra>{{{fra}}}</option>
+							<option value=eng>{{{eng}}}</option>
+						</select>
+						<button id=translate><img src=/assets/images/translate.png></button>
+					</header>
+					<textarea id=destbox></textarea>
+				</section>
+			</section>
+		</main>
+		<footer>
+		</footer>
+		<script src=/assets/css/scalelogo.js></script>
+		<script src=/assets/scripts/enforce_different.js></script>
+		<script src=/assets/scripts/translate.js></script>
+		<script src=/assets/scripts/translate_ui.js></script>
+	</body>
+</html>
+

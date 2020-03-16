@@ -1,0 +1,29 @@
+#translators section {
+	display: inline-block;
+	width: 47%;
+	margin: 0px;
+	border: 0px;
+	padding: 1%
+}
+
+textarea {
+	width: 100%
+}
+
+#translators {
+	width: 100%
+}
+
+#translators button {
+	float: right;
+	margin: 0px;
+}
+
+#logo, hgroup {
+	display: inline-block
+}
+
+/*#logo {
+	width: auto;
+	height: 100%
+}*/
